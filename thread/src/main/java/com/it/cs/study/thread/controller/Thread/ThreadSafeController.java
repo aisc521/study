@@ -1,4 +1,4 @@
-package com.it.cs.study.thread.controller;
+package com.it.cs.study.thread.controller.Thread;
 
 /**
  * @Description 多线程之间实现同步
@@ -12,8 +12,13 @@ package com.it.cs.study.thread.controller;
  *   1）什么是线程安全：当多个线程同时共享，同一个全局变量或者静态变量，做写的操作时，可能会发生数据冲突问题，也就是线程安全问题。做读操作是不会发生数据冲突问题
  * 2.synchronized 用法  使用 注意问题  只包括可能出现线程安全问题的代码  不要包含全部的代码  会变成单线程结果
  *
- * 3.死锁
- *
+ * 3.多线程死锁
+ *   1)什么是死锁
+ *     数据库死锁
+ *     线程死锁
+ *     行锁
+ *     表锁
+ *     同步中嵌套同步，导致锁无法释放
  * 4.线程安全怎么解决
  *   1）使用synchronized
  *      1.1 同步代码块 将可能会发生线程安全的问题 给包括起来  synchronized (同一个数据)  包裹起来的代码 只能让当前一个线程进行执行

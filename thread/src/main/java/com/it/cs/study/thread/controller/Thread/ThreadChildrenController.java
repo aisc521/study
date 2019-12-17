@@ -1,4 +1,4 @@
-package com.it.cs.study.thread.controller;
+package com.it.cs.study.thread.controller.Thread;
 
 /**
  * 继承Thread

@@ -1,4 +1,4 @@
-package com.it.cs.study.thread.controller;
+package com.it.cs.study.thread.controller.Thread;
 
 /**
  * @Description 多线程 分批处理数据
