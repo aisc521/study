@@ -62,12 +62,29 @@ public class ThreadChiDemo {
         /**
          * 做定时的线程池  执行定时任务线程池
          */
-        ScheduledExecutorService executors2  = Executors.newScheduledThreadPool(5);
+      /*  ScheduledExecutorService executors2  = Executors.newScheduledThreadPool(5);
             executors2.schedule(new Runnable() {
                 @Override
                 public void run() {
                     System.out.println("我是3秒钟之后执行.................");
                 }
-            },3, TimeUnit.SECONDS);
+            },3, TimeUnit.SECONDS);*/
+        /**
+         * 单线程池  其实就是单线程
+         */
+        ExecutorService executors3 = Executors.newSingleThreadExecutor();
+        for (int i = 0; i < 10; i++) {
+            int index = i;
+            executors3.execute(new Runnable() {
+                @Override
+                public void run() {
+                    System.out.println(Thread.currentThread().getName() + "=====" + index);
+                    if(index == 9){
+                        //关闭线程池
+                        executors3.shutdown();
+                    }
+                }
+            });
         }
+    }
 }
