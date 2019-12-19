@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.it.cs</groupId>
-	<artifactId>thread</artifactId>
+	<artifactId>annotation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>thread</name>
+	<name>annotation</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
