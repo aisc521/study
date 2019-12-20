@@ -8,16 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="annotation" />
         <module name="annotation (1)" />
+        <module name="maven" />
+        <module name="servlet" />
         <module name="study" />
         <module name="wangluocode" />
+        <module name="webrm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="annotation" target="1.8" />
       <module name="annotation (1)" target="1.8" />
+      <module name="maven" target="1.8" />
+      <module name="servlet" target="1.8" />
       <module name="study" target="1.8" />
       <module name="thread" target="1.8" />
       <module name="wangluocode" target="1.8" />
+      <module name="webrm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

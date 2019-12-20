@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/annotation (1).iml" filepath="$PROJECT_DIR$/thread/annotation (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven/maven.iml" filepath="$PROJECT_DIR$/maven/maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
       <module fileurl="file://$PROJECT_DIR$/wangluocode/wangluocode.iml" filepath="$PROJECT_DIR$/wangluocode/wangluocode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webrm/webrm.iml" filepath="$PROJECT_DIR$/webrm/webrm.iml" />
     </modules>
   </component>
 </project>
