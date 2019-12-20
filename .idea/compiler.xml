@@ -9,6 +9,7 @@
         <module name="annotation" />
         <module name="annotation (1)" />
         <module name="study" />
+        <module name="wangluocode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="annotation (1)" target="1.8" />
       <module name="study" target="1.8" />
       <module name="thread" target="1.8" />
+      <module name="wangluocode" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
