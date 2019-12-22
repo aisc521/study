@@ -7,12 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="annotation" />
-        <module name="annotation (1)" />
+        <module name="webrm" />
+        <module name="wangluocode" />
         <module name="maven" />
         <module name="servlet" />
         <module name="study" />
-        <module name="wangluocode" />
-        <module name="webrm" />
+        <module name="thread" />
+        <module name="annotation (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,5 +26,16 @@
       <module name="wangluocode" target="1.8" />
       <module name="webrm" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="annotation" options="-parameters" />
+      <module name="maven" options="-parameters" />
+      <module name="servlet" options="-parameters" />
+      <module name="study" options="-parameters" />
+      <module name="thread" options="-parameters" />
+      <module name="wangluocode" options="-parameters" />
+      <module name="webrm" options="-parameters" />
+    </option>
   </component>
 </project>
