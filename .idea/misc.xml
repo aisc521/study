@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/maven/pom.xml" />
         <option value="$PROJECT_DIR$/webrm/pom.xml" />
         <option value="$PROJECT_DIR$/servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/excel/pom.xml" />
       </list>
     </option>
   </component>
