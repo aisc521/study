@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="annotation" />
-        <module name="annotation (1)" />
-        <module name="maven" />
+        <module name="exceldemo" />
         <module name="servlet" />
         <module name="study" />
+        <module name="thread" />
         <module name="wangluocode" />
         <module name="webrm" />
       </profile>
@@ -18,24 +18,15 @@
     <bytecodeTargetLevel>
       <module name="annotation" target="1.8" />
       <module name="annotation (1)" target="1.8" />
-      <module name="excel" target="1.5" />
+      <module name="excel" target="1.8" />
+      <module name="exceldemo" target="1.8" />
       <module name="maven" target="1.8" />
       <module name="servlet" target="1.8" />
+      <module name="session-cookie" target="1.8" />
       <module name="study" target="1.8" />
       <module name="thread" target="1.8" />
       <module name="wangluocode" target="1.8" />
       <module name="webrm" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="annotation" options="-parameters" />
-      <module name="maven" options="-parameters" />
-      <module name="servlet" options="-parameters" />
-      <module name="study" options="-parameters" />
-      <module name="thread" options="-parameters" />
-      <module name="wangluocode" options="-parameters" />
-      <module name="webrm" options="-parameters" />
-    </option>
   </component>
 </project>

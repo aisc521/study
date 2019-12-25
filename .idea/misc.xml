@@ -4,13 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/thread/pom.xml" />
         <option value="$PROJECT_DIR$/annotation/pom.xml" />
         <option value="$PROJECT_DIR$/wangluocode/pom.xml" />
-        <option value="$PROJECT_DIR$/maven/pom.xml" />
         <option value="$PROJECT_DIR$/webrm/pom.xml" />
         <option value="$PROJECT_DIR$/servlet/pom.xml" />
-        <option value="$PROJECT_DIR$/excel/pom.xml" />
+        <option value="$PROJECT_DIR$/exceldemo/pom.xml" />
       </list>
     </option>
   </component>

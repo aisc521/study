@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Date;
 
 /**
- * @Description TODO
+ * @Description 转发不暴露真实地址 转发主要在tomcat内部跳转 重定向 返回客户端302请求request 也会被丢失掉 重定向地址发生改变 而且转发作用域的值全部失效 所以重定向效率低
  * @Author cuishuai
  * @Date 2019/12/20 16:29
  */
